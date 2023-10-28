@@ -191,10 +191,20 @@
 }
 .second img{
     width: 190%;
-    margin-top:300px;
+    margin-top:70px;
 }
 .signup{
     width: 125%;
 }
-
+.text-big{
+    text-align:justify;
+    font-size: 32px;
+}
+.text-small{
+    text-align: justify;
+    font-size: 15px;
+}
+.first{
+    width: 200px;
+}
 }
