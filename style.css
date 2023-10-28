@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+
+.navlist {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    /* background: yellow; */
+}
+
+.navlist li {
+    list-style: none;
+    padding: 29px 40px;
+    font-size: 20px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: rgb(21, 210, 204);
+    padding: 8px;
+
+}
+
+.navlist li a:hover {
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    background: #07e88e;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 25%;
+}
+
+.rightnav {
+
+    /* background: greenyellow; */
+    width: 20%;
+    text-align: center;
+}
+
+.rightnav button {
+    border-radius: 23px;
+    padding: 12px 20px;
+    margin: 15px 2px;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+.rightnav button:hover {
+    cursor: pointer;
+    background-color: rgb(7, 255, 7);
+    color: rgb(0, 0, 0);
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(img/hand-1248053_1280.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.boxmain {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstsection {
+    height: 100vh;
+
+}
+
+.first {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second {
+    width: 30%;
+
+}
+
+.second img {
+
+    width: 88%;
+
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 40px;
+
+}
+
+.text-small {
+    font-size: 20px;
+}
+
+.regbtn {
+    width: 18%;
+    margin-top: 21px;
+    border: 2px solid black;
+    color: #000000;
+    background: #13e21f;
+    border-radius: 13px;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1521px) {
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 500px;
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .navheight {
+        height: 70px;
+    }
+
+    .v-class {
+        visibility: hidden;
+    }
+    .regbtn{
+        width: 54%;
+    }
+    .second img{
+        width: 100%;
+    }
+    .logo img {
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 500px){
+.boxmain{
+    flex-direction: column-reverse;
+
+}
+.second img{
+    width: 190%;
+}
+.signup{
+    width: 125%;
+}
+
+}
