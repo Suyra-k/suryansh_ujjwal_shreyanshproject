@@ -189,6 +189,10 @@
     flex-direction: column-reverse;
 
 }
+    .second{
+
+   margin-right: 100px;
+}
 .second img{
     width: 190%;
     margin-top:70px;
